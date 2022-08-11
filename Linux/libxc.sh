@@ -7,6 +7,8 @@ tar -xzvf down.php?file=$libxc_version%2Flibxc-$libxc_version.tar.gz
 mv libxc-$libxc_version $libxc_version
 
 cd $libxc_version
+mv INSTALL INSTALL.md
+
 mkdir -p install
 mkdir -p build
 
